@@ -1,0 +1,21 @@
+.card {
+    border: 1px solid silver;
+    border-radius: 4px;
+    &:hover {
+        box-shadow: 0px 2px 6px 0px silver;
+    }
+    img {
+        padding: 20px;
+    }
+    .content {
+        padding: 0px 10px 10px;
+        h1 {
+            font-size: 30px;
+            color: #232527;
+        }
+        h3 {
+            font-size: 20px;
+            color: #272a2c;
+        }
+    }
+}
