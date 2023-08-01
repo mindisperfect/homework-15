@@ -26,7 +26,7 @@ const CardList = ({ item, removeItem, setAddedItem, itemsArr }) => {
       return itemArr;
     });
     setAddedItem(newArr);
-  }, [state]);
+  }, [state, item, itemsArr, setAddedItem]);
 
   return (
     <div className="card-list-body">

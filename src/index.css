@@ -7,7 +7,6 @@
     transition: all 0.4s ease;
     font-family: sans-serif;
     outline: none;
-    background-color: red;
 }
 *,*::after, *::before {
   box-sizing: border-box;
